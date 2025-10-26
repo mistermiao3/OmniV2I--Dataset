@@ -1,6 +1,7 @@
 The OmniV2I Dataset: Detailed Information
 1. Overview
-The OmniV2I dataset is a multi-modal, multi-illumination dataset collected for the research and evaluation of online Vehicle-to-Infrastructure (V2I) calibration and cooperative perception algorithms. It was collected in Zhenjiang, China, and features a unique, panoramic roadside sensor suite.
+The OmniV2I dataset is a multi-modal, multi-illumination dataset collected for the research and evaluation of online Vehicle-to-Infrastructure (V2I) calibration and cooperative perception algorithms. It was collected in Zhenjiang, China, and features a unique, panoramic roadside sensor suite.To comply with privacy protection policies, the entire dataset is currently undergoing a thorough data anonymization process. This process involves detecting and blurring all sensitive information, including pedestrian faces and vehicle license plates, in both the camera images and video files. The dataset will be publicly released once this anonymization process is complete.
+
 2. Data Acquisition Platform
 Roadside Unit (RSU): A perception unit deployed at the center of the intersection.
 LiDAR System: A 360° fused point cloud is generated from one RoboSense RS-80 (80-beam mechanical LiDAR) and two RoboSense RS-LiDAR-M1P (solid-state LiDARs). All LiDARs are pre-calibrated, and their data is fused into a single, high-density point cloud in the rsu_base coordinate frame.
